@@ -27,8 +27,12 @@ def load_cookies(driver, location, url=None):
         driver.add_cookie(cookie)
 
 
+chrome = webdriver.Chrome()
+# TO LOGIN FOR THE FIRST TIME
+# ln_login(chrome, "config.txt", "cookies.txt")
+
+# FOR FURHTER USE
 ln_url = "https://www.linkedin.com"
 g_url = "https://google.com"
-chrome = webdriver.Chrome()
 load_cookies(chrome, "cookies.txt")
 chrome.get(ln_url)
