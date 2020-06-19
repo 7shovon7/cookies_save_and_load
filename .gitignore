@@ -1,3 +1,5 @@
+__pycache__
+.ipynb_checkpoints
+cookies
+creds
 env
-config.txt
-cookies.txt
